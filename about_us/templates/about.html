@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+<div class="aboutSection w-75 m-auto d-flex justify-content-around align-items-center">
+    <div class="textSection col-6">
+        <h1>About Us</h1>
+        <p>Burger King, a global fast-food chain, is renowned for its flame-grilled burgers. Founded in 1954, it's known for its signature Whopper sandwich, often customizable with various toppings. The menu extends beyond burgers to include chicken sandwiches,
+            fries, salads, and desserts. With a focus on convenience and speed, Burger King strives to offer a diverse range of tasty, affordable options for customers seeking quick-service meals.</p>
+    </div>
+    <div class="imgSection col-6 d-flex align-items-center justify-content-center" style="margin-top: 60px;">
+        <img class="w-75 mt-6" src="{% static 'GoogleMap.png' %}" alt="google map location">
+    </div>
+</div>
+{% endblock %}

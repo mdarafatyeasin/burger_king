@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+<div class="homeSection">
+    <div class="banner w-75 m-auto d-flex justify-content-between align-items-center">
+        <div class="textSection">
+            <h1>Royally Satisfying Every Bite!</h1>
+            <p>Burger King, famous for flame-grilled burgers, offers a diverse menu filled with bold flavors, making it a top choice for satisfying fast-food cravings.</p>
+            <button type="button" class="btn btn-dark">Shop Now</button>
+        </div>
+        <div class="imgSection">
+            <img src="{% static 'burger.png' %}" alt="burger">
+        </div>
+    </div>
+</div>
+{% endblock%}

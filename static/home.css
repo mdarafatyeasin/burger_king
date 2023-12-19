@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.homePage {
+    color: green;
+}
+
+.homeSection {
+    background-image: linear-gradient(to right top, #f0d600, #f4dc2b, #f7e342, #fbe955, #ffef66);
+}
